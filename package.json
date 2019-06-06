@@ -1,0 +1,16 @@
+{
+  "name": "qms-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "worker": "node worker.js",
+    "sender": "node sender.js"
+  },
+  "author": "Stepan Grigoryan",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "0.5.3",
+    "mongoose": "5.5.12"
+  }
+}
